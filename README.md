@@ -43,6 +43,6 @@ Mirian Ajiki Molicawa
 * [LinkedIn](https://br.linkedin.com/in/mirian-ajiki-molicawa)
 * [Alura](https://www.alura.com.br)
 * [Vercel](https://humor-de-bits.vercel.app/)
+  
 **Observação:**
-
 Este projeto foi desenvolvido como parte do desafio da Imersão Dev com Google Gemini da Alura.
