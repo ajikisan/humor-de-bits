@@ -1,0 +1,115 @@
+/* Estilos Gerais */
+body {
+  font-family: 'Italiano', sans-serif;
+  background-color: #007bff; /* Azul padrão */
+  color: #fff; /* Texto branco */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+ }
+ 
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-family: 'Bold Script', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+main {
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+/*
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+  */
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.resultados-pesquisa {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item-resultado a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.descricao-meta {
+  color: #45474B; /* Cor do texto */
+  margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+footer {
+  background-color: #0056b3; /* Azul mais escuro para o rodapé */
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: flex;
+  /*position: fixed; */
+  bottom: 0;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+
+  input[type="text"] {
+    margin-bottom: 10px;
+  }
+}
+
